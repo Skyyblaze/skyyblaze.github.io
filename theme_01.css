@@ -1,0 +1,72 @@
+	body {
+		/* THEME 01 BODY BACKGROUND */
+		background-color: #EDC2C8;
+        background-image: url(background/mainbg.jpg);
+		background-repeat: repeat-y;
+        background-size: cover;
+        background-position: center center;
+	}	
+	.avatar {
+		/* THEME 01 AVATAR */
+		background-image: url("avatar/avatar_theme01.png") !important;
+	}
+	#picture1:before {
+		/* MAIN COLUMN ITEM ILLUSTRATION */
+		background: rgba(6,99,222,.3);
+	}
+	#picture1 {
+		background-image: url("background/background_01/background01.png") !important;
+	}
+    #text1 {
+        text-shadow: 2px 1px skyblue;
+}
+
+	#picture2:before {
+		background: rgba(250,115,150,.3);
+	}
+	#picture2 {
+		background-image: url("background/background_01/background02.png") !important;
+	}
+    #text2 {
+        text-shadow: 2px 1px red;
+}
+
+	#picture3:before {
+		background: rgba(184,244,250,.3);
+	}
+	#picture3 {
+		background-image: url("background/background_01/background03.png") !important;
+	}
+    #text3 {
+        text-shadow: 2px 1px blue;
+}
+
+	#picture4:before {
+		background: rgba(50,42,40,.3);
+	}
+	#picture4 {
+		background-image: url("background/background_01/background04.png") !important;
+	}
+    #text4 {
+        text-shadow: 2px 1px pink;
+}
+
+	#picture5:before {
+		background: rgba(240,240,151,.3);
+	}
+	#picture5 {
+		background-image: url("background/background_01/background05.png") !important;
+	}
+    #text5 {
+        text-shadow: 2px 1px lightblue;
+}
+
+	#picture6:before {
+		background: rgba(231,207,168,.3);
+	}
+	#picture6 {
+		background-image: url("background/background_01/background06.png") !important;
+	}
+    #text6 {
+        text-shadow: 2px 1px lightgreen;
+}
