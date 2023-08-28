@@ -1,0 +1,50 @@
+body {
+	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-repeat: no-repeat;
+    background-size: 100%;
+	margin: 0;
+}
+
+.text-shadow {
+	text-shadow:
+		-1px -1px 0 #ffffffa4,
+		1px -1px 0 #ffffffa4,
+		-1px 1px 0 #ffffffa4,
+		1px 1px 0 #ffffffa4;
+}
+
+h1 {
+    text-align: center;
+    color: #a5c9ff;
+}
+
+nav {
+	display: flex;
+	padding: 0.5rem;
+	justify-content: center;
+}
+
+nav > a:not(:first-child) {
+	margin-left: 2rem;
+}
+
+.image-link {
+    font-size: small;
+    font-weight: bold;
+    color: black;
+	text-decoration: none;
+	text-align: center;
+}
+
+.image-link img {
+	width: 64px;
+	height: 64px;
+	object-fit: cover;
+	border-radius: 15px;
+	background-color: antiquewhite;
+	display: block;
+}
+
+.image-link:hover {
+    opacity: 0.7;
+}
